@@ -169,6 +169,7 @@ footer p {
 }
 .price span {
   display: block;
+  padding-bottom: 4px;
 }
 
 /* サービス */
@@ -192,10 +193,6 @@ footer p {
   display: block;
 }
 
-.access {
-  width: 100%;
-}
-
 .gmap {
   height: 0;
   overflow: hidden;
@@ -210,5 +207,5 @@ footer p {
   /* height: 70%;
   width: 70%; */
   height: 100%;
-  width: 90%;
+  width: 100%;
   }
