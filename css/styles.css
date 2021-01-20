@@ -27,7 +27,7 @@ header {
   left: 0;
   z-index: 9999;
   width: 100%;
-  background: rgb(87, 84, 84);
+  background: radial-gradient( #575757 0%, #242424 100%);
   /* background-image: url(../img/header.png); */
   /* background-size: cover; */
   /* background: lightgreen; */
@@ -90,7 +90,7 @@ h3 {
 footer {
   width: 100%;
   text-align: center;
-  background: rgb(87, 84, 84);
+  background: radial-gradient( #575757 0%, #242424 100%);
   /* background: black; */
   padding: 12px 14px;
   border-top: 2px solid #571c1f;
