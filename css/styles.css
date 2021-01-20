@@ -64,6 +64,7 @@ header {
   opacity: 0.9;
 }
 
+/* メイン */
 main {
   margin: 0 12px;
   /* padding: 0 12px; */
@@ -73,6 +74,13 @@ main {
   /* background: lightgray; */
   /* border: 1px solid black; */
   /* background: rgb(127, 185, 127); */
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 8px 0;
+  text-shadow: 1px 1px 1px rgb(172, 165, 165);
 }
 
 h2 {
@@ -86,6 +94,12 @@ h3 {
   font-size: 16px;
   font-weight: bold;
   margin-top: 20px;
+}
+.top {
+  text-align: center;
+}
+.top img {
+  width: 100%;
 }
 
 
@@ -210,6 +224,7 @@ footer p {
   border-collapse: collapse;
   font-size: 16px;
   text-shadow: 1px 1px 1px rgb(172, 165, 165);
+  /* border: 1px solid black; */
 }
 .service td {
   /* border: solid 1px black; */
