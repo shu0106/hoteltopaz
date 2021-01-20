@@ -1,0 +1,214 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 
+  YuMincho,    /* Mac用 */
+	'Yu Mincho', /* Windows用 */
+	sans-serif;
+  font-size: 12px;
+  line-height: 1.7;
+  color: black;
+}
+
+/* ヘッダー */
+header {
+}
+.header-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  background: lightgreen;
+  padding: 12px 14px;
+}
+.header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 8px;
+  font-weight: bold;
+  height: 42px;
+}
+.header-nav li {
+  text-align: center;
+  background: gray;
+  width: 15%;
+  padding: 4px;
+}
+.header-nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 100%;
+}
+.header-nav span {
+  color: orange;
+  /* font-size: 4px; */
+  /* font-size: 2vw; */
+}
+.header-nav li:hover {
+  opacity: 0.9;
+}
+
+main {
+  margin: 0 12px;
+  /* padding: 0 12px; */
+  padding-top: 70px;
+  /* width: 100%; */
+  /* height: 300px;
+  background: lightgray;
+  border: 1px solid black; */
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  background: lightgrey;
+  border-left: 3px solid gray;
+  padding: 4px 6px;
+}
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+/* フッター */
+footer {
+  width: 100%;
+  text-align: center;
+  background-image: url(../img/bg_headfoot.jpg);
+  background-size: cover;
+  /* background: black; */
+  padding: 12px 14px;
+  border-top: 2px solid #571c1f;
+  margin-top: 20px;
+}
+
+.footer-nav {
+  text-align: left;
+}
+
+footer li {
+  padding: 6px 0;
+  font-weight: bold;
+  border-bottom: 1px solid #571c1f;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  width: 100%;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-nav span {
+  color: orange;
+}
+footer p {
+  margin-top: 30px;
+  margin-bottom: 42px;
+}
+
+.footer-wrapper {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 9999;
+  width: 100%;
+  max-height: 42px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 50%;
+  background: white;
+}
+.tel {
+  width: 50%;
+  line-height: 42px;
+  background: lightgreen;
+}
+.logo img {
+  width: 50%;  
+  max-height: 42px;
+  background: lightgreen;
+}
+
+
+/* 料金表 */
+.price h3 {
+  margin-top: 20px;
+}
+.price table {
+  border-collapse: collapse;
+  /* border: 1px solid black; */
+  font-size: 12px;
+}
+
+.price td {
+  border: solid 1px black;
+  padding: 6px;
+  width: 80px;
+}
+
+.price p {
+  margin-top: 20px;
+}
+.price span {
+  display: block;
+}
+
+/* サービス */
+.service table {
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.service td {
+  /* border: solid 1px black; */
+  padding: 6px;
+}
+.service td:nth-child(odd) {
+  width: 200px;
+}
+.service p {
+  margin-top: 20px;
+}
+
+/* アクセス */
+.access span {
+  display: block;
+}
+
+.access {
+  width: 100%;
+}
+
+.gmap {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 52.5%;
+  position: relative;
+  /* margin: 18px; */
+  }
+  .gmap iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* height: 70%;
+  width: 70%; */
+  height: 100%;
+  width: 100%;
+  }
