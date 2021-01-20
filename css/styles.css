@@ -179,6 +179,7 @@ footer p {
   border-collapse: collapse;
   /* border: 1px solid black; */
   font-size: 12px;
+  text-shadow: 1px 1px 1px rgb(172, 165, 165);
 }
 
 .price td {
@@ -189,6 +190,8 @@ footer p {
 
 .price td:nth-of-type(even) {
   text-align: right;
+  font-size: 18px;
+  font-weight: bold;
 }
 .price td:nth-of-type(odd) {
   color: white;
@@ -205,14 +208,15 @@ footer p {
 /* サービス */
 .service table {
   border-collapse: collapse;
-  font-size: 12px;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px rgb(172, 165, 165);
 }
 .service td {
   /* border: solid 1px black; */
   padding: 6px;
 }
 .service td:nth-child(odd) {
-  width: 200px;
+  width: 250px;
 }
 .service p {
   margin-top: 20px;
