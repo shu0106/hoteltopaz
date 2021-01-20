@@ -49,11 +49,13 @@ header {
 .header-nav a {
   text-decoration: none;
   color: white;
+  text-shadow: 1px 1px 1px #000;
   display: block;
   width: 100%;
 }
 .header-nav span {
   color: gold;
+  text-shadow: 1px 1px 1px #000;
   /* font-size: 4px; */
   /* font-size: 2vw; */
 }
@@ -145,7 +147,7 @@ footer p {
 .tel {
   width: 50%;
   line-height: 42px;
-  background: rgb(116, 109, 109);
+  background: rgb(46, 44, 44);
   /* background-image: url(../img/header.png); */
   /* background-size: cover; */
   /* font-size: 12px; */
@@ -156,6 +158,7 @@ footer p {
 .tel a {
   /* color: rgba(0, 0, 0, 0.8); */
   color: gold;
+  text-shadow: 1px 1px 1px #000;
 }
 .logo img {
   width: 50%;  
