@@ -32,11 +32,12 @@ header {
   /* background-image: url(../img/header.png); */
   /* background-size: cover; */
   /* background: lightgreen; */
-  padding: 12px 14px;
+  padding: 12px 0;
 }
 .header-nav ul {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   font-size: 8px;
   font-weight: bold;
   height: 42px;
@@ -47,6 +48,8 @@ header {
   /* background: gray; */
   width: 15%;
   padding: 4px;
+  flex: 1;
+  border: 1px solid  #4e4c4c;
 }
 .header-nav a {
   text-decoration: none;
@@ -110,7 +113,7 @@ h3 {
 }
 
 .top img {
-  width: 60%;
+  width: 80%;
   margin: 10px 0 30px ;
 }
 
@@ -119,7 +122,6 @@ footer {
   width: 100%;
   text-align: center;
   background: radial-gradient( #575757 0%, #242424 100%);
-  /* background: black; */
   padding: 12px 14px;
   border-top: 2px solidg gray;
   margin-top: 20px;
