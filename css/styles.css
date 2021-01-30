@@ -104,6 +104,7 @@ h3 {
 }
 .top .mainImg {
   width: 100%;
+  max-width: 90%;
   margin-bottom: 10px;
 }
 
@@ -114,6 +115,7 @@ h3 {
 
 .top img {
   width: 80%;
+  max-width: 600px;
   margin: 10px 0 30px ;
 }
 
@@ -174,6 +176,7 @@ footer p {
 }
 .logo {
   width: 50%;
+  max-width: 400px;
   background: white;
 }
 .tel {
@@ -185,7 +188,7 @@ footer p {
   /* font-size: 12px; */
   font-weight: bold;
   font-family: ヒラギノ角ゴシック, "Hiragino Sans", YuGothic, sans-serif;
-  
+  flex: 1;
 }
 .tel a {
   /* color: rgba(0, 0, 0, 0.8); */
@@ -230,6 +233,16 @@ footer p {
 .price span {
   display: block;
   padding-bottom: 4px;
+}
+
+/* 客室紹介 */
+.room img{
+  transition: opacity 0.1s;
+}
+
+.room img:hover {
+  opacity: 0.7;
+  /* transition: opacity 0.1s; */
 }
 
 /* サービス */
