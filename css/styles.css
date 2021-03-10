@@ -20,8 +20,6 @@ body {
 }
 
 /* ヘッダー */
-header {
-}
 .header-nav {
   position: fixed;
   top: 0;
@@ -102,10 +100,12 @@ h3 {
 .top {
   text-align: center;
 }
-.top .mainImg {
+.mainImg {
+  padding-top: 60px;
   width: 100%;
-  max-width: 90%;
-  margin-bottom: 10px;
+  /* max-width: 90%; */
+  margin: 0 auto;
+  /* margin-bottom: 10px; */
 }
 
 .top h2 {
