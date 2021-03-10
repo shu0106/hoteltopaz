@@ -101,10 +101,10 @@ h3 {
   text-align: center;
 }
 .mainImg {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   width: 100%;
   /* max-width: 90%; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
   /* margin-bottom: 10px; */
 }
 
